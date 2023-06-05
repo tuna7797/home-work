@@ -9,32 +9,33 @@
   font-size: 15px;
   padding: 8px 0 0 16px;
 }
-.list01,
-.list02{
+.list{
   font-size: 14px;
+  overflow: hidden;
 }
-.list01 dt,
-.list02 dt{
+.list dt{
   font-weight: bold;
-  line-height: 21px;
+  line-height: 24px;
   color: #296897;
+  display: inline;
 }
-
-.list01 dd:nth-of-type(1){
+.list dd:nth-of-type(1){
   float: left;
   margin-left: 16px;
   margin-right: 16px;
 }
-.list01 dt,
-.list02 dt{
-  margin: 0 0 5px 16px;
+.list dd:nth-of-type(2){
+  margin-bottom: 20px;
 }
-.list02{margin-top: 20px;}
-.list02 dd:nth-of-type(1){
+.list dt:nth-of-type(2){
+  margin-top: 20px;
+  padding-left: 16px;
+}
+.dd2{
   float: right;
   margin-left: 16px;
   margin-right: 16px;
 }
-.list02 dd:nth-of-type(2){
+.dd3{
   margin-left: 16px;
 }
