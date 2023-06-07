@@ -1,0 +1,88 @@
+.content{
+  margin: 40px 0 0 28px;
+  width: 244px;
+  height: 161px;
+  background: linear-gradient(to right,#ED552F, #E8852E);
+  box-shadow: 5px 5px #AAAAAA;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.content h3{
+  color: #FFFF00;
+  margin: 12px;
+  font-size: 15px;
+}
+legend{
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.loginForm{
+  width: 220px;
+  height: 106px;
+  background-color: #fff;
+  position: relative;
+  margin: 8px 12px 12px 12px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.loginForm .id-box,
+.loginForm .pw-box{
+  margin: 8px;
+}
+.loginForm .id-box label{
+  margin-right: 14px;
+  font-weight: 600;
+}
+.loginForm .pw-box label{
+  margin-right: 1px;
+  font-weight: 600;
+}
+.loginForm input{
+  width: 82px;
+  height: 21px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #7a7a7a;
+  padding: 0 0 0 7px;
+}
+.loginForm button{
+  width: 50px;
+  height: 53px;
+  background-color: #ED552F;
+  color: #fff;
+  font-size: 12px;
+  border: 0;
+  border-radius: 5px;
+  position: absolute;
+  top: 8px;
+  right: 7px;
+}
+.loginForm ul{
+  list-style: none;
+  margin: 0 0 0 8px;
+  padding-top: 8px;
+  border-top: 1px solid #ccc;
+  width: 167px;
+}
+.loginForm ul li{
+  float: left;
+  margin-left: -25px;
+}
+.loginForm ul li:nth-of-type(2){
+  margin-left: 25px;
+}
+.loginForm ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
