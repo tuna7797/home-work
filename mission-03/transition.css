@@ -1,0 +1,37 @@
+.list_box{
+  width: 190px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+.list_box h3{
+  font-size: 15px;
+  margin: 8px 0 0 12px;
+}
+.list_box h3 span{
+  color: #ED552F;
+}
+.list_box ul{
+  list-style: none;
+  width: 164px;
+  height: 27px;
+  background: #fff;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  padding: 0;
+  margin: 12px;
+  overflow: hidden;
+  transition: all .4s;
+}
+.list_box ul:hover{
+  height: 129px;
+  padding: 11px 0;
+}
+.list_box ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  display: block;
+  padding: 5px 0 5px 24px;
+}
